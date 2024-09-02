@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.7
 
-      - name: List files in repository
+      - name: List files in McGillian repository
         run: |
         echo "The repository ${{ github.repository }} contains the following files:"
         tree
