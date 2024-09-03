@@ -1,0 +1,13 @@
+name: My Second Training Workflow
+
+on: 
+  push:
+    branches: 
+      - main
+  workflow_dispatch:
+
+jobs:
+  MySecondJob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Again!"
