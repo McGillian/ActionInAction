@@ -10,9 +10,7 @@ jobs:
   job_1:
     runs-on: ubuntu-latest
     steps:
-      step_1:
         - run: echo "I am job_1 FIRST STEP"
-      step_2:
         - run: echo "I am job_1 SECOND STEP"
   job_2:
      runs-on: ubuntu-latest
